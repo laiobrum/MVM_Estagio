@@ -1,7 +1,7 @@
 # Referência de item revogado
 Não incluir a classe `leiRef`, apenas a tag `<del>{texto}</del>`
 
-# Regras de uso das classes leiRef, leiRe2, 3 e 4
+# Regras de uso das classes leiRef, leiRef2, 3 e 4
 - leiRef: referências cruzadas
 - leiRef2: Revogados, alterados, Vide - fica pequenininho e há quebra de linha. É botão de toggle do revogado - marcar de escuro o botão de revogado!
 - leiRef3: Quando acontecer de (Revogado) ou (Vetado) e tiver a informação de lei

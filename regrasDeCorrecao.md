@@ -7,3 +7,7 @@ Não incluir a classe `leiRef`, apenas a tag `<del>{texto}</del>`
 - leiRef3: Quando acontecer de (Revogado) ou (Vetado) e tiver a informação de lei
   - Ex.: "§ 2.º (Revogado pela Lei...)"
 - leiRef4: Revogados, alterados - fica pequenininho e há quebra de linha, mas fica sumido. Aparece só no botão de revogados
+
+# Palavra "Vigência" em leiRef
+Apagar os `<span></span>` que contiver essa palavra, tanto "Vigência" ou "(Vigência)"
+  Ex: `<span class="leiRef">Vigência</span>`

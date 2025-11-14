@@ -11,3 +11,6 @@ Não incluir a classe `leiRef`, apenas a tag `<del>{texto}</del>`
 # Palavra "Vigência" em leiRef
 Apagar os `<span></span>` que contiver essa palavra, tanto "Vigência" ou "(Vigência)"
   Ex: `<span class="leiRef">Vigência</span>`
+
+# Alerta para as leis que não possuem texto compilado
+Algumas partes podem fica com classe "revogado" quando não é verdade, sendo necessário está alerta. Se for revogado um artigo inteiro, deverá sinalizar para não pular artigo.

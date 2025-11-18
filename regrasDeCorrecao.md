@@ -9,8 +9,13 @@ Não incluir a classe `leiRef`, apenas a tag `<del>{texto}</del>`
 - leiRef4: Revogados, alterados - fica pequenininho e há quebra de linha, mas fica sumido. Aparece só no botão de revogados
 
 # Palavra "Vigência" em leiRef
-Apagar os `<span></span>` que contiver essa palavra, tanto "Vigência" ou "(Vigência)"
+Apagar os `<span></span>` que contiver essa palavra, tanto "Vigência", "(Vigência)" ou "Produção de efeitos".
   Ex: `<span class="leiRef">Vigência</span>`
 
 # Alerta para as leis que não possuem texto compilado
 Algumas partes podem fica com classe "revogado" quando não é verdade, sendo necessário está alerta. Se for revogado um artigo inteiro, deverá sinalizar para não pular artigo.
+
+# Padrão de disposítivos
+- Paragráfos: § 6.º
+- Artigos: Art. 6.º
+- A partir do 10 em diante é apenas Art. 10. e § 10.

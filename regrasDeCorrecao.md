@@ -9,8 +9,10 @@ Não incluir a classe `leiRef`, apenas a tag `<del>{texto}</del>`
 - leiRef4: Revogados, alterados - fica pequenininho e há quebra de linha, mas fica sumido. Aparece só no botão de revogados
 
 # Palavra "Vigência" em leiRef
-Apagar os `<span></span>` de comentários que contiver essa palavra, tanto "Vigência", "(Vigência)" ou "Produção de efeito".
+Apagar os `<span></span>` de comentários que contiver essa palavra, tanto "Vigência", "(Vigência)" ou "Produção de efeito(s)".
   Ex: `<span class="leiRef">Vigência</span>`
+
+Não excluir os com "Vigência encerrada".
 
 # Alerta para as leis que não possuem texto compilado
 Algumas partes podem fica com classe "revogado" quando não é verdade, sendo necessário está alerta. Se for revogado um artigo inteiro, deverá sinalizar para não pular artigo.

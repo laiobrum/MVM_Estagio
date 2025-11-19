@@ -21,3 +21,5 @@ Algumas partes podem fica com classe "revogado" quando não é verdade, sendo ne
 - Paragráfos: § 6.º
 - Artigos: Art. 6.º
 - A partir do 10 em diante é apenas Art. 10. e § 10.
+- Citações de artigos: texto simples
+  - Ex: “Art. 1.767. ..................................................................
